@@ -19,7 +19,7 @@ public class Sorter {
         }
 
     }
-    
+
     public static void insertionSort(String[] arr) {
         int n = arr.length;
 
@@ -33,12 +33,17 @@ public class Sorter {
                 arr[j + 1] = arr[j];
                 j--;
             }
-            
+
             arr[j + 1] = key;
         }
-}
+    }
 
-public static void sort(String[] array) {
-    insertionSort(array);
-}
+    public static void sort(String[] array) {
+        insertionSort(array);
+    }
+
+    public static void Sort(String[] array) {
+        selectionSort(array);
+    }
+
 }
