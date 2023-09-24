@@ -37,4 +37,8 @@ public class Sorter {
             arr[j + 1] = key;
         }
 }
+
+public static void sort(String[] array) {
+    insertionSort(array);
+}
 }
